@@ -20,6 +20,7 @@ function sumOfNumbers(arrayOfNumbers) {
   }
     return sum;
 }
+assignment.sumOfNumbers = sumOfNumbers;
 
 
 /**
@@ -34,12 +35,13 @@ function sumOfNumbers(arrayOfNumbers) {
 function countEvenNumbers(arrayOfNumbers) {
   let evenNumbers = 0
   for(let i = 0; i < arrayOfNumbers.length; i++){
-    if (arrayOfNumbers[1] % 2 == 0) {
+    if (arrayOfNumbers[i] % 2 == 0) {
       evenNumbers+=1;
     }
   }
     return evenNumbers;
 }
+ assignment.countEvenNumbers = countEvenNumbers;
 
 
 /**
